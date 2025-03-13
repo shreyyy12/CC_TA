@@ -9,8 +9,8 @@ pipeline {
                     g++ -o PES1UG22CS577-1 main.cpp
                     echo "Build stage completed."
                 '''
-            }
-        }
+            
+        
         
         stage('Test') {
             steps {
